@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/comm.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="body_box">
+<!--  页眉 -->
+    <div class="brow " id="brow">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mx-0 ">
+                    <ul class="row nav">
+                        <li class="col-lg-6 col-md-12 nav-item text-white px-0">
+                            <a class=" h5 text-white nav-link " href="#">
+                                <span class="fa fa-envelope-open "></span>
+                                &nbsp;info@example.com
+                            </a> 
+                        </li>
+                        <li class="col-lg-6 col-md-12 nav-item text-white px-0 ">
+                            <a class="h5 text-white nav-link " href="#">
+                                <span class="fa fa-phone"></span>
+                                &nbsp;+4561237890
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12 mx-0 ">
+                    <ul class="row nav ">
+                        <li class="col-lg-5 col-md-12 nav-item text-white text-lg-right px-0">
+                            <a class=" h5 text-white nav-link " href="#">
+                                <span class="fa fa-envelope-open "></span>
+                                &nbsp;Register
+                            </a> 
+                        </li>
+                        <li class="col-lg-4 col-md-12 nav-item text-white text-lg-right px-0">
+                            <a class="h5 text-white nav-link " href="#">
+                                <span class="fa fa-phone"></span>
+                                &nbsp;Sign in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 导航栏 -->
+<div class="catalog" id="catalog">
+        <div class="container">
+                <div class="row ">
+                <div class="navbar navbar-expand-lg  navbar-dark  w-100">
+                    <!-- 1.最前面不折叠的菜单-->
+                    <a class="navbar-brand  mx-0" href=""><h1>Cookie</h1> </a>
+                    <!-- 2.在小屏幕下出现的按钮，按钮上有三条线-->
+                    <button data-toggle="collapse" data-target="#content" class="navbar-toggler">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- 3.折叠的菜单，小屏以上横向显示，下屏幕以下垂直-->
+                    <div id="content" class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav brow rounded">
+                            <li class="nav-item px-3">
+                                <a class="nav-link " href=""><h4> Home</h4></a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link " href="#about"><h4> about</h4></a>
+                            </li>
+                            <li class="nav-item px-3 dropdown">
+                                <a class="nav-link dropdown-toggle h4" href="" data-toggle="dropdown">Dropdown</a>
+                                <div class="dropdown-menu text-center px-3">
+                                    <a class="dropdown-item scroll h5 px-2" href="#team">team</a>
+                                    <a class="dropdown-item scroll h5 px-2" href="">services</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item scroll h5 px-2" href="">more</a>
+                                    <a class="dropdown-item scroll h5 px-2" href="">latest posts</a>
+                                </div>
+
+                            </li>
+                            <li class="nav-item px-3 ">
+                                <a class="nav-link " href=""><h4> Contact</h4></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+<!-- 轮播图 -->
+    <div class="con_carousel" id="carousel">
+            <div class="carousel" id="demo" data-ride="carousel">
+                <!-- 轮播图片 -->
+                <div class="carousel-inner" >
+                    <div class="carousel-item banner banner1 active">
+                        <div class="home_content px-0">
+                            <div class="container">
+                                    <div class="box">
+                                        <span class="h3">handmade goodness!</span>
+                                        <h1>Taste The Test Butter <br> Cookies</h1>
+                                        <a class="btn  mt-4 " href="#about">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="carousel-item banner banner2">
+                            <div class="home_content px-0">
+                                <div class="container">
+                                    <div class="box">
+                                        <span class="h3">handmade goodness!</span>
+                                        <h1>Taste The Test Butter <br> Cookies</h1>
+                                        <a class="btn  mt-4 " href="#about">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- 轮播标记 -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1" class=></li>
+                </ul>
+            </div>
+        </div>
+
+    <!-- about -->
+    <div id="about" class="about">
+        <div class="container py-4">
+            <div class="about_top_mag pb-4">
+                    <h3 class="top_name">multipurpose food theme</h3>
+                    <span class="title-line">
+                    </span>
+                    <p class=" text-center m-4 mb-0">Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor invidunt ut
+                        labore et
+                        dolore magna
+                        aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet,
+                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea takimata
+                        sanctus est.
+                    </p>
+                </div>
+
+                <div class=" text-center position-relative">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 box box_1">
+                            <div class="about-icon-w3">
+                                <span class="fa fa-life-ring " aria-hidden="true"></span>
+                            </div>
+                                <h3>dream Cookies</h3>
+                                <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
+                                    porta.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 box">
+                            <div class="about-icon-w3">
+                                <span class="fa fa-life-ring " aria-hidden="true"></span>
+                            </div>
+                                <h3>dream Cookies</h3>
+                                <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
+                                    porta.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 box box_1">
+                            <div class="about-icon-w3">
+                                <span class="fa fa-life-ring " aria-hidden="true"></span>
+                            </div>
+                                <h3>dream Cookies</h3>
+                                <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
+                                    porta.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 box">
+                            <div class="about-icon-w3">
+                                <span class="fa fa-life-ring " aria-hidden="true"></span>
+                            </div>
+                                <h3>dream Cookies</h3>
+                                <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
+                                    porta.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 box box_1">
+                            <div class="about-icon-w3">
+                                <span class="fa fa-life-ring " aria-hidden="true"></span>
+                            </div>
+                                <h3>dream Cookies</h3>
+                                <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
+                                    porta.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 box">
+                            <div class="about-icon-w3">
+                                <span class="fa fa-life-ring " aria-hidden="true"></span>
+                            </div>
+                                <h3>dream Cookies</h3>
+                                <p>Rutrum congue donec leo eget malesuada. Cras ultriciet malesuaes ligula sed magna dictum
+                                    porta.</p>
+                                </div>
+                            </div>
+                            <div class="about_img">
+                                <img class="" src="./img/about.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- slide -->
+    <div class="row mx-0" id="slide">
+        <div class="col-lg-6 px-0">
+            <div class="slide_con">
+                <h3 class="text-left text-capitalize font-weight-bold">100% pure butter cookies </h3>
+                <p class="text-left">Lorem ipsum dolor sit amet,sed diam nonumy eirmod tempor
+                    invidunt
+                    ut
+                    labore et
+                    dolore magna
+                    aliquyam erat, At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor
+                    sit
+                    amet,
+                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Stet clita kasd gubergren, no sea
+                    takimata
+                    sanctus est.</p>
+            </div>
+        </div>
+        <div class="col-lg-6 slide_con slide_bg"></div>
+    </div>
+    
+    <!-- team -->
+    
+        <div id="team" class="about">
+            <div class="container py-4">
+                <div class="about_top_mag pb-4">
+                        <h3 class="top_name">meet our team</h3>
+                        <span class="title-line">
+                        </span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel">
+                                <!-- 轮播成员 -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="team_con col-lg-4">
+
+                                            </div>
+                                            <div class="team_con col-lg-4"></div>
+                                            <div class="team_con col-lg-4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+
+                                    </div>
+                                </div>
+                                <!-- 轮播指标点 -->
+                                <ul class="carousel-indicators">
+                                    <li class=""></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+
+</div>
+</body> 
+</html>
