@@ -16,6 +16,25 @@ a:hover{ text-decoration:none;}
 
 ul{list-style:none;}
 
+.bg-theme {
+     background-image:linear-gradient(to right, #ff934b 0%, #ff5e62 100%)
+}
+.bg-theme1 {
+    background-image: linear-gradient(135deg, #0cc5b7 0%, #2bd891 100%);
+}
+
+img{
+    border-radius: 1rem;
+}
+
+.item-title{
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+
+.space-sec {
+    margin-top: 3rem;
+}
 /* 媒体查询 */
 
 
@@ -23,11 +42,6 @@ ul{list-style:none;}
 
 
 
-/* 页眉 */
-.brow{ 
-    background-image:linear-gradient(to right, #ff934b 0%, #ff5e62 100% );
-    
-}
 
 
 /* 导航栏 */
@@ -39,6 +53,7 @@ ul{list-style:none;}
     width: 100%;
 
 }
+
 
 
 /* 轮播图 */
@@ -84,7 +99,7 @@ ul{list-style:none;}
 
 .home_content{
    
-    padding: 20vw 10px 15vw;
+    padding: 18vw 10px 15vw;
     /* position: absolute; */
     z-index: 1;
     background-color: rgba(0, 20, 0, 0.3);
@@ -161,7 +176,12 @@ span.title-line{
     width: 200px;
     margin: 1em auto 0;
     position: relative;
-    font-size:2rem;
+    font-size:1em;
+}
+
+.about-icon-w3 i{
+    font-size: 2em;
+    color: #0cc5b7;
 }
 
 .about .box{
@@ -201,7 +221,6 @@ span.title-line{
 
 .slide_con{
     padding:8em 5em;
-    background-image: linear-gradient(135deg, #0cc5b7 0%, #2bd891 100%);
     color: #fff;  
 }
 
@@ -209,5 +228,77 @@ span.title-line{
     background-image: url(../img/slide.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* team */
+.trem-text{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 10%;
+    top: 80%
+}
+
+.min-height{
+    min-height: 50vh
+}
+
+ .about li {
+    background-color: #0cc5b7;
+}
+
+
+/* stats */
+#stats{
+    background: rgba(13, 17, 18, 0.61);
+    z-index: -1;
+}
+
+.counter i {
+    font-size: 2em;
+    color: #0cc5b7;
+}
+
+.timer {
+    font-size: 3em;
+    font-weight: 600;
+}
+p.count-text {
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+/* < !-- services --> */
+.ser_pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: #e3e8e8;
+}
+
+.ser_pic i {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background: #ff725a;
+    color: #e3e8e8;
+    line-height: 170px;
+    font-size: 4em;
+    box-shadow: 1px 15px 17px 0px rgba(180, 167, 167, 0.78);
+    border-radius: 50%;
+}
+
+.ser_msg .btn{
+    background-image: linear-gradient(135deg, #0cc5b7 0%, #2bd891 100%);
+    border: 0;
+    border-radius: 2rem;
+    color: #000;
+    padding: 0.5rem 1rem;
+    font-weight: 650;
 }
 
