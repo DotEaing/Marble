@@ -49,6 +49,7 @@ img{
 
 
 
+
 /* 导航栏 */
 .catalog{
     /* color: #fff;  */
@@ -487,4 +488,13 @@ span.icon_g_plus {
 #tail p{
     text-align: center;
     color: #fff;
+}
+
+/* to top */
+#toTop{
+    position:fixed;
+    display: block;
+    bottom:50px;
+    right:50px;
+    /* display:none; */
 }
