@@ -493,8 +493,7 @@ span.icon_g_plus {
 /* to top */
 #toTop{
     position:fixed;
-    display: block;
     bottom:50px;
     right:50px;
-    /* display:none; */
+    display:none;
 }

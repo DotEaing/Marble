@@ -4,6 +4,8 @@ function toTop(){
     //总距离
     var scrollTop=
       document.body.scrollTop||document.documentElement.scrollTop;
+      console.log(scrollTop);
+      
     //总时间
     var dura=400;
     //总步数
@@ -27,4 +29,13 @@ function toTop(){
     },interval)
   }
 
-//  1、当页面滚动时延时进行
+
+window.onscroll=function () {
+   var scrollTop = document.body.scrollTop ||
+     document.documentElement.scrollTop
+    if (scrollTop>=450) {
+      this.document.getElementById("toTop").style.display="block"
+    }else{
+       this.document.getElementById("toTop").style.display = "none"
+    }
+  }
