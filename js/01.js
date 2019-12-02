@@ -1,11 +1,9 @@
-
+ 
 function toTop(){
     //位移动画: 3要素
     //总距离
     var scrollTop=
       document.body.scrollTop||document.documentElement.scrollTop;
-      console.log(scrollTop);
-      
     //总时间
     var dura=400;
     //总步数
@@ -29,13 +27,12 @@ function toTop(){
     },interval)
   }
 
-
 window.onscroll=function () {
-   var scrollTop = document.body.scrollTop ||
-     document.documentElement.scrollTop
-    if (scrollTop>=450) {
-      this.document.getElementById("toTop").style.display="block"
-    }else{
-       this.document.getElementById("toTop").style.display = "none"
-    }
-  }
+  var scrollTop=
+      document.body.scrollTop||document.documentElement.scrollTop;
+      if(scrollTop>=450){
+        this.document.getElementById("toTop").style.display="block"
+      }else{
+        this.document.getElementById("toTop").style.display="none"
+      }
+}
